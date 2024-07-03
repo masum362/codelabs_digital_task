@@ -6,7 +6,7 @@ const Navbar = () => {
             <div>
                 <img src={logo} alt="website logo" />
             </div>
-            <ul className='flex items-center gap-4'>
+            <ul className='flex items-center gap-4 text-themeColor font-medium'>
                 <li><a href='#'>Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Blog</a></li>

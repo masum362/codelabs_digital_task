@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import PatientsHelpCards from "./components/patientsHelpCards/PatientsHelpCards"
+import Service from "./components/service/Service"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <main className="space-y-32">
           <PatientsHelpCards />
           <About />
+          <Service />
         </main>
       </div>
       <Footer />

@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import Faqs from "./components/faq/Faqs"
 import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
@@ -20,6 +21,7 @@ function App() {
           <About />
           <Service />
           <Tastimonials />
+          <Faqs />
         </main>
       </div>
       <Footer />

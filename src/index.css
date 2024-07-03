@@ -9,3 +9,15 @@ body {
     max-width: 1536px;
     font-family: "Inter", sans-serif;
 }
+
+
+.star-svg {
+    display: inline-block;
+  }
+
+  .react-multi-carousel-dot--active button{
+    background:#FFC637;
+    border:none
+  }
+
+  

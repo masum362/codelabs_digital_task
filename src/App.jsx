@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import PatientsHelpCards from "./components/patientsHelpCards/PatientsHelpCards"
 import Service from "./components/service/Service"
+import Tastimonials from "./components/tastimonials/Tastimonials"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <PatientsHelpCards />
           <About />
           <Service />
+          <Tastimonials />
         </main>
       </div>
       <Footer />

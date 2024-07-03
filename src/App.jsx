@@ -1,3 +1,4 @@
+import About from "./components/About/About"
 import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
@@ -12,8 +13,9 @@ function App() {
           <Navbar />
           <Hero />
         </header>
-        <main>
+        <main className="space-y-32">
           <PatientsHelpCards />
+          <About />
         </main>
       </div>
       <Footer />

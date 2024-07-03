@@ -3,6 +3,7 @@ import Faqs from "./components/faq/Faqs"
 import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
+import Offer from "./components/offer/Offer"
 import PatientsHelpCards from "./components/patientsHelpCards/PatientsHelpCards"
 import Service from "./components/service/Service"
 import Tastimonials from "./components/tastimonials/Tastimonials"
@@ -22,6 +23,7 @@ function App() {
           <Service />
           <Tastimonials />
           <Faqs />
+          <Offer />
         </main>
       </div>
       <Footer />
